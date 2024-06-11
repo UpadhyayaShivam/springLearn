@@ -1,0 +1,29 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dev" class="org.springtest.dev" >
+
+    </bean>
+    <bean id="dev1" class="org.springtest.dev" >
+        <property name="age" value="25"/>
+    </bean>
+    <bean id="dev2" class="org.springtest.dev" >
+       <constructor-arg index="0" value="Shivam"/>
+    </bean>
+    <bean id="dev3" class="org.springtest.dev" >
+        <constructor-arg index="0" value="Shivam sharma"/>
+        <constructor-arg index="1" value="27"/>
+    </bean>
+    <bean id="dev4" class="org.springtest.dev" >
+        <constructor-arg ref="laptop1"/>
+    </bean>
+    <bean id="dev5" class="org.springtest.dev" >
+        <property name="laptop" ref="laptop1"   />
+    </bean>
+    <bean id="laptop1" class="org.springtest.laptop" >
+
+    </bean>
+</beans>
