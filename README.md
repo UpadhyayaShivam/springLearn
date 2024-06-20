@@ -37,10 +37,10 @@ Before you begin, ensure you have the following installed:
       Baeldung Spring Tutorials -  https://www.baeldung.com/spring-tutorial
       Spring Boot Reference Guide - https://docs.spring.io/spring-boot/index.html
       Spring Batch Reference Guide - https://docs.spring.io/spring-batch/reference/
-###License
+## License
     This project is licensed under the MIT License.
 
-### What i Learned
+## What i Learned
     Inversion of Control (IoC)
     Dependency Injection (DI)
     Bean Lifecycle
@@ -52,7 +52,7 @@ Before you begin, ensure you have the following installed:
     Item Readers, Processors, and Writers
     Job Parameters and Execution Context
 
-### Future Learning
+## Future Learning
     Application Context
     Spring AOP (Aspect-Oriented Programming)  
     Spring Boot Actuator
